@@ -6,4 +6,5 @@ Includes the following file types:
 - css
 - less
 - js
+- php
 

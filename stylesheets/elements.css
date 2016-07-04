@@ -107,13 +107,13 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slide-1 {
-  background-image: url('../images/bg/01.jpg'); 
+  background-image: url('../images/bg/g01.svg'); 
 }
 .fade-carousel .slide-2 {
-  background-image: url('../images/bg/02.jpg'); 
+  background-image: url('../images/bg/g02.svg'); 
 }
 .fade-carousel .slide-3 {
-  background-image: url('../images/bg/03.jpg'); 
+  background-image: url('../images/bg/g03.jpg'); 
 }
 
 /********************************/

@@ -249,12 +249,13 @@ function initUX() {
 
 
             //Works Filter Panel View
-            $('.works-filter-trigger')
-            .on('click', function(event) {
-                event.preventDefault();
-                var $panel = $('.works-filter-panel');
-                $panel.toggleClass('is-visible', !$panel.hasClass('is-visible'));
-            });
+            //Commented out for static visible state
+            //$('.works-filter-trigger')
+            //.on('click', function(event) {
+                //event.preventDefault();
+                //var $panel = $('.works-filter-panel');
+                //$panel.toggleClass('is-visible', !$panel.hasClass('is-visible'));
+            //});
         });
         // ready: ends
 }

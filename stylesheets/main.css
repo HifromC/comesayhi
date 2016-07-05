@@ -137,6 +137,16 @@ a:focus {
   border:solid 3px;
   color: #fff;
 }
+.custom-icons {
+    max-width:30px;
+    max-height:30px;
+}
+.custom-icons a img{
+    color: #000;
+}
+.custom-icons a:hover img{
+    color: #ee2b48;
+}
 
 
 /*Preloader*/

@@ -1,8 +1,8 @@
 .elements-wrap{
 }
 /*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
+Fade content bs-carousel with hero headers by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
+Customized by @hifromclara
 */
 
 /********************************/
@@ -10,11 +10,10 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 100%;
+    height: 300px;
 }
 .fade-carousel .carousel-inner .item {
-    height: 100%;
-    width: 100%;
+    height: 300px;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
@@ -29,8 +28,31 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
 }
 
 /********************************/
-/*          Hero Headers        */
+/*          Custom Headers      */
 /********************************/
+.hero-caption {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    bottom: 65%;
+    z-index: 3;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.25);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero-caption h1 {
+    font-size: 1.25em;    
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+}
 .hero {
     position: absolute;
     top: 50%;
@@ -101,7 +123,6 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
 /*       Slides backgrounds     */
 /********************************/
 .fade-carousel .slides{
-  height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -114,7 +135,7 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
 }
 .fade-carousel .slide-3 {
   background-image: url('../images/bg/g03.jpg'); 
-}
+
 
 /********************************/
 /*          Media Queries       */
@@ -340,7 +361,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .carousel-control.left,.carousel-control.right {background-image:none;}
 .item:not(.prev) {visibility: visible;}
 .item.right:not(.prev) {visibility: hidden;}
-.rightest{ visibility: visible;}
+.rightest{ visibility: hidden;}
 
 
 @media screen and (min-width:768px){

@@ -5943,7 +5943,7 @@ button.close {
   position: absolute;
   top: 50%;
   z-index: 5;
-  display: inline-block;
+  display: block;
 }
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {

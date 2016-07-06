@@ -1,8 +1,9 @@
 .elements-wrap{
 }
 /*
-Fade content bs-carousel with hero headers by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
-Customized by @hifromclara
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
 */
 
 /********************************/
@@ -28,7 +29,7 @@ Customized by @hifromclara
 }
 
 /********************************/
-/*          Custom Headers      */
+/*          Hero Headers        */
 /********************************/
 .hero-caption {
     position: absolute;
@@ -123,6 +124,7 @@ Customized by @hifromclara
 /*       Slides backgrounds     */
 /********************************/
 .fade-carousel .slides{
+  height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -135,7 +137,7 @@ Customized by @hifromclara
 }
 .fade-carousel .slide-3 {
   background-image: url('../images/bg/g03.jpg'); 
-
+}
 
 /********************************/
 /*          Media Queries       */
@@ -529,7 +531,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
   line-height: 43px;
 }
 .progress-container h6 > span:before{
-  /* content: ' = '; */
+  content: ' = ';
   font-size: 20px;
   line-height: 27px;
   font-style: italic;

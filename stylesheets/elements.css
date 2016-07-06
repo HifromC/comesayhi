@@ -102,7 +102,7 @@ Customized by @hifromclara
     height: 100%;
     z-index: 2;
     background-color: #000;
-    opacity: .2;
+    opacity: .1;
 }
 
 /********************************/
@@ -131,7 +131,7 @@ Customized by @hifromclara
   background-image: url('../images/bg/g01.svg'); 
 }
 .fade-carousel .slide-2 {
-  background-image: url('../images/bg/g02.svg'); 
+  background-image: url('../images/bg/g02.jpg'); 
 }
 .fade-carousel .slide-3 {
   background-image: url('../images/bg/g03.jpg'); 

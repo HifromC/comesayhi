@@ -2,7 +2,8 @@
 }
 /*
 Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
 */
 
 /********************************/
@@ -10,11 +11,10 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 100%;
+    height: 300px;
 }
 .fade-carousel .carousel-inner .item {
-    height: 100%;
-    width: 100%;
+    height: 300px;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
@@ -31,6 +31,29 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
 /********************************/
 /*          Hero Headers        */
 /********************************/
+.hero-caption {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    bottom: 65%;
+    z-index: 3;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.25);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero-caption h1 {
+    font-size: 1.25em;    
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+}
 .hero {
     position: absolute;
     top: 50%;
@@ -80,7 +103,7 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
     height: 100%;
     z-index: 2;
     background-color: #000;
-    opacity: .2;
+    opacity: .1;
 }
 
 /********************************/
@@ -107,13 +130,13 @@ Code snippet by maridlcrmn (Follow on Twitter @maridlcrmn) for Bootsnipp.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slide-1 {
-  background-image: url('../images/bg/01.jpg'); 
+  background-image: url('../images/bg/g01.svg'); 
 }
 .fade-carousel .slide-2 {
-  background-image: url('../images/bg/02.jpg'); 
+  background-image: url('../images/bg/g02.jpg'); 
 }
 .fade-carousel .slide-3 {
-  background-image: url('../images/bg/03.jpg'); 
+  background-image: url('../images/bg/g03.jpg'); 
 }
 
 /********************************/
@@ -340,7 +363,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 .carousel-control.left,.carousel-control.right {background-image:none;}
 .item:not(.prev) {visibility: visible;}
 .item.right:not(.prev) {visibility: hidden;}
-.rightest{ visibility: visible;}
+.rightest{ visibility: hidden;}
 
 
 @media screen and (min-width:768px){
@@ -508,7 +531,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
   line-height: 43px;
 }
 .progress-container h6 > span:before{
-  /* content: ' = '; */
+  content: ' = ';
   font-size: 20px;
   line-height: 27px;
   font-style: italic;

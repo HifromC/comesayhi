@@ -124,7 +124,7 @@ Image credits: unsplash.com
 /*       Slides backgrounds     */
 /********************************/
 .fade-carousel .slides{
-  height: 100%;
+  height: 400px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
